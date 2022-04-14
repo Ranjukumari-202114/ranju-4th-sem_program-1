@@ -18,12 +18,11 @@ class Matrix                             //creating class named Matrix
 };
 void Matrix::Mat(int row,int column)     //defining member function of matrix class outside
 {
-    cout<<"Enter your matrix :["<<m<<"]["<<n<<"]"<<endl;
+    cout<<"Enter your matrix"<<endl;
     for (int i=0;i<m;i++) 
     {
         for(int j=0;j<n;j++)
         {   
-            cout<<"Enter the element at position ["<<i<<", "<<j<<"]:";
             cin>>arr[i][j];
         }
     }
@@ -31,7 +30,7 @@ void Matrix::Mat(int row,int column)     //defining member function of matrix cl
 }
 void Matrix::print()                     //defining member function of matrix class outside
 {
-    cout<<"Matrix :\n";
+    cout<<"The Matrix is: \n";
       for (int i=0;i<m;i++) 
     {
         for(int j=0;j<n;j++)
